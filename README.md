@@ -14,7 +14,7 @@ Moreover, you can run and try the entire Plasma Desktop in another tty !
 # Requirements
 
 - `python` `>=` `3.2`
-- `docopt`
+- `docopt` (for python)
 - `docker` `>=` `1.5`
 
 # Usage
@@ -22,7 +22,8 @@ Moreover, you can run and try the entire Plasma Desktop in another tty !
 ## Quick and simple
 
 Just choose a distro as a base system for the container (*`archlinux` 
-is recommended, as it has the latest dependencies*), and run the script :
+is recommended, as it has the latest dependencies* or Manjaro which is arch-based), 
+and run the script :
 
     ./run.py --base archlinux
 
